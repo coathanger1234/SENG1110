@@ -5,7 +5,10 @@ public class Depot
 	
 	//add comments
 	public String getName(){
-		//...
+		return name;
+	}
+	public setName(String x){
+		name = x;
 	}
 	//add other methods
 }
